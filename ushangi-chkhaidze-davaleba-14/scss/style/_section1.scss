@@ -1,0 +1,61 @@
+.s-1{
+    background-image:url(../images/Rectangle\ 1.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 606px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 84px;
+    h1{
+        display: none;
+        color: #FFF;
+        font-family: Helvetica;
+        font-size: 79px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        @media(max-width: 800px){
+            display: inline-block;
+            text-align: center;
+        }
+    }
+    h4{
+        display: none;
+        color: #FFF;
+        font-family: Helvetica;
+        font-size: 19px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        @media(max-width: 800px){
+            display: inline-block;
+            text-align: center;
+        }
+    }
+    h6{
+        color: #FFF;
+        font-family: Helvetica;
+        font-size: 79px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        @media(max-width: 800px){
+            display: none;
+        }
+    }
+    span{
+        color: #FFF;
+        font-family: Helvetica;
+        font-size: 19px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        @media(max-width: 800px){
+            display: none;
+        }
+    }
+
+}

@@ -1,0 +1,92 @@
+.s-2{
+    max-width: 1242px;
+    width: 100%;
+    margin: 0 auto;
+    @media (max-width: 1250px) {
+        .s-2{
+            width: 95%;
+        }
+    }
+    .section2flex{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        @media (max-width: 800px) {
+                flex-direction: column;
+                align-items: center;
+        }
+        .info-box{
+            width: 235px;
+            @media (max-width: 800px) {
+                    width: 65.7%;
+                    margin-bottom: 50px;
+            }
+            h2 {
+                color: #636060;
+                font-size: 17px;
+                font-family: Helvetica;
+                margin-bottom: 10px;
+                @media (max-width: 800px) { 
+                    text-align: center;
+             }
+            }
+            h3 {
+                color: #010101;
+                font-size: 28px;
+                font-family: Helvetica;
+                margin-bottom: 37px;
+                @media (max-width: 800px) { 
+                    text-align: center;
+             }
+            }
+            p {
+                color: #636060;
+                font-size: 20px;
+                font-family: Helvetica;
+                @media (max-width: 800px) { 
+                    text-align: center;
+             }
+            }
+
+        }
+   
+        .wrapper {
+            max-width: 924px;
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            @media (max-width: 1200px) {
+                justify-content: space-around;
+            }
+            .card {
+                max-width: 286px;
+                margin-bottom: 56px;
+                margin: 0 20;
+                
+                img {
+                    width: 286px;
+                    margin-bottom: 23px;
+                    margin: 0 16,5;
+                }
+                h5 {
+                    color: #343232;
+                    font-size: 19px;
+                    font-family: Helvetica;
+                    margin-bottom: 10px;
+                    @media (max-width: 800px) {
+                        text-align: center;
+                    }
+                }
+                p {
+                    color: #636060;
+                    font-size: 18px;
+                    font-family: Helvetica;
+                    @media (max-width: 800px) {
+                        text-align: center;
+                    }
+                }
+            }
+        }
+    }
+}
